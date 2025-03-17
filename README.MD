@@ -16,18 +16,18 @@ Neste projeto eu fiz a view no nosso terminal e a cada operação que voce faz n
 
 OrganizadorDeTarefas
  Controllers        
- └── TarefaController.cs 
-             Models │ 
-                ├── OrganizadorContext.cs
-                ├── TarefaSimples.cs 
-                ├──TarefaBase.cs
-                └──TarefaBase.cs
-                   Views  
-                    └── TarefaView.cs 
-                            
-                             ├── Program.cs 
-                             ├── appsettings.json 
-                             └── OrganizadorDeTarefas.csproj
+ └── TarefaController.cs <br>
+             Models │ <br>
+                ├── OrganizadorContext.cs<br>
+                ├── TarefaSimples.cs <br>
+                ├──TarefaBase.cs<br>
+                └──TarefaBase.cs<br>
+                   Views  <br>
+                    └── TarefaView.cs <br>
+                            <br>
+                             ├── Program.cs <br>
+                             ├── appsettings.json <br>
+                             └── OrganizadorDeTarefas.csproj <br>
 
 ## Pré-requisitos
 
