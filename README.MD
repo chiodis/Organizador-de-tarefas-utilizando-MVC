@@ -59,17 +59,17 @@ OrganizadorDeTarefas
     dotnet add package Microsoft.Extensions.Configuration
     dotnet add package Microsoft.Extensions.Configuration.json
     /*
+<br>
    
-
 
 4. Configure sua conection string de acordo com o sgbd que voce queira usar, no meu caso usei SQL server, entao usei : <br>
 
-appsettings.json
-    {
-  "ConnectionStrings": {
-    "ConexaoPadrao": "Server=localhost\\sqlexpress;Database=OrganizadorDeTarefas;Trusted_Connection=True;"
-  }
-}
+appsettings.json<br>
+    {<br>
+  "ConnectionStrings": {<br>
+    "ConexaoPadrao": "Server=localhost\\sqlexpress;Database=OrganizadorDeTarefas;Trusted_Connection=True;"<br>
+  }<br>
+}<br>
 <br>
 
 5. Adicione as migrações e atualize o banco de dados:<br>
