@@ -55,7 +55,7 @@ OrganizadorDeTarefas
    dotnet tool install --global dotnet-ef<br>
 <br>
 
-  */Caso o seu json nao de certo e fique dando erro justamente as configurações do program.cs gerado, voce pode rodar no seu terminal:
+  */Caso o seu json nao de certo e fique dando erro juntamente as configurações do program.cs gerado, voce pode rodar no seu terminal:
     dotnet add package Microsoft.Extensions.Configuration
     dotnet add package Microsoft.Extensions.Configuration.json
     /*
