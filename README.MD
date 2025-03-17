@@ -43,7 +43,7 @@ OrganizadorDeTarefas
    cd Organizador-de-tarefas
 
 
-2. Instale as dependencias
+2. Instale as dependencias:  <br>
     dotnet restore <br>
     dotnet build
 <br>
