@@ -39,16 +39,26 @@ OrganizadorDeTarefas
 1. Clone o repositório:
 
    ```sh
-   git clone https://github.com/seu-usuario/organizador-de-tarefas.git
-   cd organizador-de-tarefas
+   git clone https://github.com/chiodis/Organizador-de-tarefas-utilizando-MVC.git
+   cd Organizador-de-tarefas
 
 
 2. Instale as dependencias
     dotnet restore
+    dotnet build
 
 
 3. Instale as ferramentas do Entity Framework Core:
-    dotnet tool install --global dotnet-ef
+   dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   dotnet add package Microsoft.EntityFrameworkCore.Tools
+   dotnet add package Microsoft.EntityFrameworkCore.Desing
+   dotnet tool install --global dotnet-ef
+
+  */Caso o seu json nao de certo e fique dando erro justamente as configurações do program.cs gerado, voce pode rodar no seu terminal:
+    dotnet add package Microsoft.Extensions.Configuration
+    dotnet add package Microsoft.Extensions.Configuration.json
+    /*
+   
 
 
 4. Configure sua conection string de acordo com o sgbd que voce queira usar, no meu caso usei SQL server, entao usei : 
