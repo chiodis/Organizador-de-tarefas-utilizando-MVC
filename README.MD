@@ -44,15 +44,16 @@ OrganizadorDeTarefas
 
 
 2. Instale as dependencias
-    dotnet restore
+    dotnet restore <br>
     dotnet build
-
+<br>
 
 3. Instale as ferramentas do Entity Framework Core:
-   dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-   dotnet add package Microsoft.EntityFrameworkCore.Tools
-   dotnet add package Microsoft.EntityFrameworkCore.Desing
-   dotnet tool install --global dotnet-ef
+   dotnet add package Microsoft.EntityFrameworkCore.SqlServer<br>
+   dotnet add package Microsoft.EntityFrameworkCore.Tools<br>
+   dotnet add package Microsoft.EntityFrameworkCore.Desing<br>
+   dotnet tool install --global dotnet-ef<br>
+<br>
 
   */Caso o seu json nao de certo e fique dando erro justamente as configurações do program.cs gerado, voce pode rodar no seu terminal:
     dotnet add package Microsoft.Extensions.Configuration
@@ -61,7 +62,7 @@ OrganizadorDeTarefas
    
 
 
-4. Configure sua conection string de acordo com o sgbd que voce queira usar, no meu caso usei SQL server, entao usei : 
+4. Configure sua conection string de acordo com o sgbd que voce queira usar, no meu caso usei SQL server, entao usei : <br>
 
 appsettings.json
     {
@@ -69,12 +70,12 @@ appsettings.json
     "ConexaoPadrao": "Server=localhost\\sqlexpress;Database=OrganizadorDeTarefas;Trusted_Connection=True;"
   }
 }
+<br>
 
-
-5. Adicione as migrações e atualize o banco de dados:
-    dotnet ef migrations add InitialCreate
-    dotnet ef database update
+5. Adicione as migrações e atualize o banco de dados:<br>
+    dotnet ef migrations add InitialCreate<br>
+    dotnet ef database update<br>
     
 
-6.Rode o Projeto utilizando:
+6.Rode o Projeto utilizando:<br>
     dotnet run
