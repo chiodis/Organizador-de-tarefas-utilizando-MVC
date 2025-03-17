@@ -48,7 +48,7 @@ OrganizadorDeTarefas
     dotnet build
 <br>
 
-3. Instale as ferramentas do Entity Framework Core:
+3. Instale as ferramentas do Entity Framework Core:<br>
    dotnet add package Microsoft.EntityFrameworkCore.SqlServer<br>
    dotnet add package Microsoft.EntityFrameworkCore.Tools<br>
    dotnet add package Microsoft.EntityFrameworkCore.Desing<br>
